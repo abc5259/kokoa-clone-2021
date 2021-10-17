@@ -3,9 +3,28 @@
   text-align: center;
   background-color: #fafafa;
   padding: 15px 0;
+  margin-bottom: 10px;
 }
 
 #friends-display-link span .fa-info-circle {
   color:rgba(0,0,0, 0.3)
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+
+.friends-screen__chanel{
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.friends-screen__chanel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0,0,0,0.5);
+  margin-bottom: 30px;
 }
 
