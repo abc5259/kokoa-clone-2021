@@ -1,0 +1,24 @@
+.settings__setting {
+  font-size: 1.3rem;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column i{
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.settings__setting-column:last-child small {
+  font-size: 1rem;
+  color: var(--sub-color);
+}
