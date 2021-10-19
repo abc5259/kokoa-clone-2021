@@ -4,6 +4,10 @@
 }
 
 #chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
   z-index: 1;
 }
 
