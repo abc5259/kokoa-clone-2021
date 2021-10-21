@@ -25,12 +25,12 @@
 }
 
 .open-chat__header span {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .open-post {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   padding: 10px 0;
 }
@@ -43,7 +43,6 @@
 .open-post__hashtags {
   text-transform: uppercase;
   color: var(--sub-color);
-  
 }
 
 .open-post__members {
@@ -91,7 +90,7 @@
   right: 10px;
   display: flex;
   align-items: center;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 5px;
   border-radius: 20px;
@@ -99,5 +98,22 @@
 }
 
 .open-post__heart-count i {
+  will-change: transform;
   margin-right: 5px;
+  animation: heartBig 2s linear infinite;
+}
+
+@keyframes heartBig {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(2);
+    color: red;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
 }

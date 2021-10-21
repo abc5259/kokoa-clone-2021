@@ -1,5 +1,5 @@
 .screen-header {
-  padding: 50px var(--horizontal-space) 30px; 
+  padding: 50px var(--horizontal-space) 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,4 +12,17 @@
 
 .screen-header__icon span {
   margin-left: 25px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }
